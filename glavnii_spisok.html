@@ -1,0 +1,54 @@
+
+<head>
+<meta charset="utf-8"> 
+<title> WebQuest </title>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+<meta http-equiv="Content-Language" content="ru">
+<link href="css/bootstrap.css" rel="stylesheet"> 
+<base target="main">
+<script language="JavaScript">
+<!--
+function FP_swapImg() {//v1.0
+ var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
+ n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
+ elm.$src=elm.src; elm.src=args[n+1]; } }
+}
+
+function FP_preloadImgs() {//v1.0
+ var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
+ for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
+}
+
+function FP_getObjectByID(id,o) {//v1.0
+ var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);
+ else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;
+ if(o.id==id || o.name==id) return o; if(o.childNodes) c=o.childNodes; if(c)
+ for(n=0; n<c.length; n++) { el=FP_getObjectByID(id,c[n]); if(el) return el; }
+ f=o.forms; if(f) for(n=0; n<f.length; n++) { els=f[n].elements;
+ for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }
+ return null;
+}
+// -->
+</script>
+<!--mstheme--><link rel="stylesheet" type="text/css" href="_themes/blends/blen1011-1251.css"><meta name="Microsoft Theme" content="blends 1011">
+</head>
+
+<html>
+<body onload="FP_preloadImgs(/*url*/'button3.jpg', /*url*/'button2.jpg', /*url*/'button5.jpg', /*url*/'buttonB.jpg', /*url*/'buttonC.jpg', /*url*/'button17.jpg', /*url*/'button18.jpg', /*url*/'button1A.jpg', /*url*/'button1B.jpg', /*url*/'button32.jpg', /*url*/'button33.jpg')">
+ 
+
+<p><script src="js/bootstrap.js"> </script>
+<a href="glavnaya_stranica.html">
+<img border="0" id="img6" src="button1.jpg" height="24" width="120" alt="Главная" fp-style="fp-btn: Embossed Capsule 1" fp-title="Главная" onmouseover="FP_swapImg(1,0,/*id*/'img6',/*url*/'button2.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img6',/*url*/'button1.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img6',/*url*/'button5.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img6',/*url*/'button2.jpg')"></a></p>
+<p><a href="zadanie.html">
+<img border="0" id="img7" src="buttonA.jpg" height="24" width="120" alt="Задание" fp-style="fp-btn: Embossed Capsule 1" fp-title="Задание" onmouseover="FP_swapImg(1,0,/*id*/'img7',/*url*/'buttonB.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img7',/*url*/'buttonA.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img7',/*url*/'buttonC.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img7',/*url*/'buttonB.jpg')"></a></p>
+<p><a href="3character.html">
+<img border="0" id="img8" src="button16.jpg" height="24" width="120" alt="Роль" fp-style="fp-btn: Embossed Capsule 1" fp-title="Роль" onmouseover="FP_swapImg(1,0,/*id*/'img8',/*url*/'button17.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img8',/*url*/'button16.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img8',/*url*/'button18.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img8',/*url*/'button17.jpg')"></a></p>
+<p><a href="ssilki.html">
+<img border="0" id="img9" src="button19.jpg" height="24" width="120" alt="Полезные ссылки" fp-style="fp-btn: Embossed Capsule 1" fp-title="Полезные ссылки" onmouseover="FP_swapImg(1,0,/*id*/'img9',/*url*/'button1A.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img9',/*url*/'button19.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img9',/*url*/'button1B.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img9',/*url*/'button1A.jpg')"></a></p>
+<p><a href="kriteriiocenivania.html">
+<img border="0" id="img10" src="button31.jpg" height="24" width="120" alt="Критерии" fp-style="fp-btn: Embossed Capsule 1" fp-title="Критерии" onmouseover="FP_swapImg(1,0,/*id*/'img10',/*url*/'button32.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img10',/*url*/'button31.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img10',/*url*/'button33.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img10',/*url*/'button32.jpg')"></a></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+</body> 
